@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard1.5;net45</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DebugType>Full</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
