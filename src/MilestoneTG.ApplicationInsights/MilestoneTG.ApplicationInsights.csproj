@@ -1,9 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFrameworks>netstandard1.5;net45</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DebugType>Full</DebugType>
+    <PackageProjectUrl>https://github.com/milestonetg/milestonetg-application-insights</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/milestonetg/milestonetg-application-insights/master/LICENSE</PackageLicenseUrl>
+    <Description>
+      A collection of Telemetry Initializers for Application Insights.
+      
+      Common Types:
+      * VersionTelemetryInitializer
+      * Http4xxSuccessTelemetryInitializer
+    </Description>
+    <PackageReleaseNotes>https://github.com/milestonetg/milestonetg-application-insights/blob/master/CHANGELOG.md</PackageReleaseNotes>
+    <Authors>milestonetg</Authors>
+    <PackageTags>application-insights</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
